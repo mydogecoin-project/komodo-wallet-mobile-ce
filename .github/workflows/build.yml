@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - ce
-
+  workflow_dispatch:
 jobs:
   build-android:
     name: Build Android APK
